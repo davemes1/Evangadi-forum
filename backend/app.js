@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const PORT = process.env.PORT || 5500; // fallback for local dev
+const PORT = process.env.PORT ; // fallback for local dev
 const dbconnection = require("./db//dbConfig");
 
 //importing user question and answer route
